@@ -1,0 +1,16 @@
+{
+  "name": "basic-llm-invocation",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tavily/core": "^0.5.11",
+    "groq-sdk": "^0.30.0"
+  }
+}
