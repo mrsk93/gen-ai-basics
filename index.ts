@@ -105,7 +105,7 @@ async function main() {
             const chatCompletion = await groq.chat.completions.create({
                 messages,
                 "model": "llama-3.3-70b-versatile",
-                "temperature": 0.25,
+                "temperature": 0.5,
                 // "max_completion_tokens": 8192,
                 // "top_p": 1,
                 // "stream": false,
