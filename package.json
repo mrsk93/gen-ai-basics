@@ -15,6 +15,7 @@
     "@tavily/core": "^0.5.11",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "groq-sdk": "^0.30.0"
+    "groq-sdk": "^0.30.0",
+    "node-cache": "^5.1.2"
   }
 }
